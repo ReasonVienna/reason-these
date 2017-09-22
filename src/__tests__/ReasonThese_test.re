@@ -13,7 +13,7 @@ describe
         (fun () => Expect.expect (testFn (This 10)) |> Expect.toBe 11);
       test
         "That-these"
-        (fun () => Expect.expect (testFn (This 10)) |> Expect.toBe 11);
+        (fun () => Expect.expect (testFn (That 10)) |> Expect.toBe 12);
       test
         "These-these"
         (fun () => Expect.expect (testFn (These 10 10)) |> Expect.toBe 20)
