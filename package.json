@@ -1,0 +1,18 @@
+{
+  "name": "reason-these",
+  "scripts": {
+    "start": "bsb -make-world -w",
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "test": "npm run build && jest"
+  },
+  "devDependencies": {
+    "bs-jest": "^0.1.0",
+    "bs-platform": "^1.9.1"
+  },
+  "jest": {
+    "roots": [
+      "lib/js/src"
+    ]
+  }
+}

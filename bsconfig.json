@@ -1,0 +1,15 @@
+{
+  "name" : "reason-these",
+  "bs-dependencies": [
+    "bs-jest"
+  ],
+  "sources": [
+    {
+      "dir": "src"
+    },
+    {
+      "dir": "src/__tests__",
+      "type": "dev"
+    }
+  ]
+}
