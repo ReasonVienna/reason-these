@@ -1,11 +1,19 @@
 {
   "name": "reason-these",
+  "description": "ReasonML port elm-these",
+  "version": "0.1.0",
   "scripts": {
     "start": "bsb -make-world -w",
     "build": "bsb -make-world",
     "clean": "bsb -clean-world",
     "test": "npm run build && jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReasonVienna/reason-these.git"
+  },
+  "keywords": [],
+  "license": "MIT",
   "devDependencies": {
     "bs-jest": "^0.1.0",
     "bs-platform": "^1.9.1"
